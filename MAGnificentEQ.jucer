@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="zYYjnJ" name="MAGnificentEQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Sentience Coding" cppLanguageStandard="latest" pluginFormats="buildAU,buildStandalone,buildVST3">
+  <MAINGROUP id="iHrzbM" name="MAGnificentEQ">
+    <GROUP id="{91A5B58C-D36F-D408-0BFA-FD50B6C24F36}" name="Source">
+      <GROUP id="{DBA82F28-D522-A4C4-B010-09B3EDB9494D}" name="Components">
+        <FILE id="QoJ7QF" name="AntiAliasFilter.h" compile="0" resource="0"
+              file="Source/Components/AntiAliasFilter.h"/>
+        <FILE id="CpQdcW" name="Biquad.cpp" compile="1" resource="0" file="Source/Components/Biquad.cpp"/>
+        <FILE id="eePtD2" name="Biquad.h" compile="0" resource="0" file="Source/Components/Biquad.h"/>
+        <FILE id="rgTsso" name="DownSampling2Stage.h" compile="0" resource="0"
+              file="Source/Components/DownSampling2Stage.h"/>
+        <FILE id="skrrNb" name="UpSampling2Stage.h" compile="0" resource="0"
+              file="Source/Components/UpSampling2Stage.h"/>
+      </GROUP>
+      <GROUP id="{12B18372-60F0-6F0B-8E93-E06D6F1E94CB}" name="LookAndFeel">
+        <FILE id="SF64ik" name="BlackKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/BlackKnobLookAndFeel.h"/>
+        <FILE id="e7kjsC" name="BlueKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/BlueKnobLookAndFeel.h"/>
+        <FILE id="W2PtWU" name="GreenKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/GreenKnobLookAndFeel.h"/>
+        <FILE id="ll9mi9" name="HelveticaNowDisplay-Black.ttf" compile="0"
+              resource="1" file="Source/LookAndFeel/HelveticaNowDisplay-Black.ttf"/>
+        <FILE id="AK4t3c" name="HelveticaNowDisplay-Regular.ttf" compile="0"
+              resource="1" file="Source/LookAndFeel/HelveticaNowDisplay-Regular.ttf"/>
+        <FILE id="se1EUV" name="JetBrainsMono-Regular.ttf" compile="0" resource="1"
+              file="Source/LookAndFeel/JetBrainsMono-Regular.ttf"/>
+        <FILE id="JUXi5S" name="MainLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/MainLookAndFeel.h"/>
+        <FILE id="xmqnvv" name="OrangeKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/OrangeKnobLookAndFeel.h"/>
+        <FILE id="K5LYS8" name="RedKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/RedKnobLookAndFeel.h"/>
+        <FILE id="tCzHsp" name="Roboto-Light.ttf" compile="0" resource="1"
+              file="Source/LookAndFeel/Roboto-Light.ttf"/>
+        <FILE id="BOE4WT" name="VioletKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/VioletKnobLookAndFeel.h"/>
+        <FILE id="QKg9bS" name="YellowKnobLookAndFeel.h" compile="0" resource="0"
+              file="Source/LookAndFeel/YellowKnobLookAndFeel.h"/>
+      </GROUP>
+      <FILE id="oLR01m" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="vR9ffc" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="CnSr6O" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="F8UwzA" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <GROUP id="{D8A2F397-8990-09E7-742B-B1AAC1A3BB9C}" name="Sections">
+        <FILE id="vkbnEg" name="EQSection.cpp" compile="1" resource="0" file="Source/Sections/EQSection.cpp"/>
+        <FILE id="qieISg" name="EQSection.h" compile="0" resource="0" file="Source/Sections/EQSection.h"/>
+        <FILE id="KRAbVp" name="SaturationSection.cpp" compile="1" resource="0"
+              file="Source/Sections/SaturationSection.cpp"/>
+        <FILE id="WP0AEd" name="SaturationSection.h" compile="0" resource="0"
+              file="Source/Sections/SaturationSection.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MAGnificentEQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MAGnificentEQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
