@@ -2,7 +2,7 @@
 
 # About
 
-An homage to a certain colorful equalizer, the MAGnificent equalizer is a fixed band equalizer with frequencies picked specifically to be general. Throw it on a vocal track, your mix output, or whatever else your heart desires.
+An homage to a certain colorful equalizer, the MAGnificent equalizer is a fixed band equalizer with frequencies picked specifically sound more gooder. Throw it on a vocal track, your mix output, or whatever else your heart desires.
 
 [![Screen-Shot-2021-10-23-at-6-57-39-PM.png](https://i.postimg.cc/xd2wFjN9/Screen-Shot-2021-10-23-at-6-57-39-PM.png)](https://postimg.cc/sMTHMrJL)
 
