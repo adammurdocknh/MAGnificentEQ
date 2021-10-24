@@ -24,3 +24,9 @@ An homage to a certain colorful equalizer, the MAGnificent equalizer is a fixed 
 ## Reviews
 
 - “From what I heard it didn’t sound bad” - Grammy winning producer and engineer, Joe Baldridge
+
+## Installers
+
+[Mac Installer](https://www.dropbox.com/s/mc96lfaqr42hp0o/MAGnificentEQ%20Installer.pkg?dl=0) - (AU, VST3)
+
+Windows - Coming soon!
